@@ -12,6 +12,17 @@
 		15396A992BBB4C6200C4ED5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15396A982BBB4C6200C4ED5A /* ContentView.swift */; };
 		15396A9B2BBB4C6400C4ED5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15396A9A2BBB4C6400C4ED5A /* Assets.xcassets */; };
 		15396A9E2BBB4C6400C4ED5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15396A9D2BBB4C6400C4ED5A /* Preview Assets.xcassets */; };
+		15396AA72BBB4D3200C4ED5A /* XCAFootballDataClient in Frameworks */ = {isa = PBXBuildFile; productRef = 15396AA62BBB4D3200C4ED5A /* XCAFootballDataClient */; };
+		15396AAA2BBB4D8F00C4ED5A /* StandingsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15396AA92BBB4D8F00C4ED5A /* StandingsTableView.swift */; };
+		15396AAD2BBB4E8100C4ED5A /* StandingsTableObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15396AAC2BBB4E8100C4ED5A /* StandingsTableObservable.swift */; };
+		15396AB02BBB4EDC00C4ED5A /* FetchPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15396AAF2BBB4EDC00C4ED5A /* FetchPhase.swift */; };
+		15396AB32BBB50D100C4ED5A /* scorers.json in Resources */ = {isa = PBXBuildFile; fileRef = 15396AB12BBB50D100C4ED5A /* scorers.json */; };
+		15396AB42BBB50D100C4ED5A /* standings.json in Resources */ = {isa = PBXBuildFile; fileRef = 15396AB22BBB50D100C4ED5A /* standings.json */; };
+		15396AB62BBB50ED00C4ED5A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15396AB52BBB50ED00C4ED5A /* Utility.swift */; };
+		15396ABF2BBB5D1D00C4ED5A /* StandingsTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15396ABE2BBB5D1D00C4ED5A /* StandingsTabItemView.swift */; };
+		15396AC12BBB62A500C4ED5A /* TopScorersTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15396AC02BBB62A500C4ED5A /* TopScorersTableView.swift */; };
+		15396AC32BBB62F400C4ED5A /* TopScorersTableObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15396AC22BBB62F400C4ED5A /* TopScorersTableObservable.swift */; };
+		15396AC52BBB68F500C4ED5A /* TopScorersTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15396AC42BBB68F500C4ED5A /* TopScorersTabItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,16 @@
 		15396A9A2BBB4C6400C4ED5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15396A9D2BBB4C6400C4ED5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		15396A9F2BBB4C6400C4ED5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15396AA92BBB4D8F00C4ED5A /* StandingsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsTableView.swift; sourceTree = "<group>"; };
+		15396AAC2BBB4E8100C4ED5A /* StandingsTableObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsTableObservable.swift; sourceTree = "<group>"; };
+		15396AAF2BBB4EDC00C4ED5A /* FetchPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchPhase.swift; sourceTree = "<group>"; };
+		15396AB12BBB50D100C4ED5A /* scorers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = scorers.json; path = ../../../../Downloads/scorers.json; sourceTree = "<group>"; };
+		15396AB22BBB50D100C4ED5A /* standings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = standings.json; path = ../../../../Downloads/standings.json; sourceTree = "<group>"; };
+		15396AB52BBB50ED00C4ED5A /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		15396ABE2BBB5D1D00C4ED5A /* StandingsTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsTabItemView.swift; sourceTree = "<group>"; };
+		15396AC02BBB62A500C4ED5A /* TopScorersTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScorersTableView.swift; sourceTree = "<group>"; };
+		15396AC22BBB62F400C4ED5A /* TopScorersTableObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScorersTableObservable.swift; sourceTree = "<group>"; };
+		15396AC42BBB68F500C4ED5A /* TopScorersTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScorersTabItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15396A952BBB4C6200C4ED5A /* RealityKitContent in Frameworks */,
+				15396AA72BBB4D3200C4ED5A /* XCAFootballDataClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +78,12 @@
 		15396A912BBB4C6200C4ED5A /* FootballStats */ = {
 			isa = PBXGroup;
 			children = (
+				15396AAE2BBB4EBF00C4ED5A /* Stubs */,
+				15396AAB2BBB4E7300C4ED5A /* Observables */,
+				15396AA82BBB4D7C00C4ED5A /* View */,
 				15396A962BBB4C6200C4ED5A /* FootballStatsApp.swift */,
+				15396AAF2BBB4EDC00C4ED5A /* FetchPhase.swift */,
+				15396AB52BBB50ED00C4ED5A /* Utility.swift */,
 				15396A982BBB4C6200C4ED5A /* ContentView.swift */,
 				15396A9A2BBB4C6400C4ED5A /* Assets.xcassets */,
 				15396A9F2BBB4C6400C4ED5A /* Info.plist */,
@@ -81,6 +108,35 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		15396AA82BBB4D7C00C4ED5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15396AA92BBB4D8F00C4ED5A /* StandingsTableView.swift */,
+				15396ABE2BBB5D1D00C4ED5A /* StandingsTabItemView.swift */,
+				15396AC02BBB62A500C4ED5A /* TopScorersTableView.swift */,
+				15396AC42BBB68F500C4ED5A /* TopScorersTabItemView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15396AAB2BBB4E7300C4ED5A /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				15396AAC2BBB4E8100C4ED5A /* StandingsTableObservable.swift */,
+				15396AC22BBB62F400C4ED5A /* TopScorersTableObservable.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		15396AAE2BBB4EBF00C4ED5A /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				15396AB12BBB50D100C4ED5A /* scorers.json */,
+				15396AB22BBB50D100C4ED5A /* standings.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +155,7 @@
 			name = FootballStats;
 			packageProductDependencies = (
 				15396A942BBB4C6200C4ED5A /* RealityKitContent */,
+				15396AA62BBB4D3200C4ED5A /* XCAFootballDataClient */,
 			);
 			productName = FootballStats;
 			productReference = 15396A8F2BBB4C6200C4ED5A /* FootballStats.app */;
@@ -128,6 +185,9 @@
 				Base,
 			);
 			mainGroup = 15396A862BBB4C6200C4ED5A;
+			packageReferences = (
+				15396AA52BBB4D3200C4ED5A /* XCRemoteSwiftPackageReference "XCAFootballDataClient" */,
+			);
 			productRefGroup = 15396A902BBB4C6200C4ED5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -142,6 +202,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15396AB32BBB50D100C4ED5A /* scorers.json in Resources */,
+				15396AB42BBB50D100C4ED5A /* standings.json in Resources */,
 				15396A9E2BBB4C6400C4ED5A /* Preview Assets.xcassets in Resources */,
 				15396A9B2BBB4C6400C4ED5A /* Assets.xcassets in Resources */,
 			);
@@ -154,6 +216,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15396AB02BBB4EDC00C4ED5A /* FetchPhase.swift in Sources */,
+				15396AC52BBB68F500C4ED5A /* TopScorersTabItemView.swift in Sources */,
+				15396ABF2BBB5D1D00C4ED5A /* StandingsTabItemView.swift in Sources */,
+				15396AAA2BBB4D8F00C4ED5A /* StandingsTableView.swift in Sources */,
+				15396AC12BBB62A500C4ED5A /* TopScorersTableView.swift in Sources */,
+				15396AB62BBB50ED00C4ED5A /* Utility.swift in Sources */,
+				15396AC32BBB62F400C4ED5A /* TopScorersTableObservable.swift in Sources */,
+				15396AAD2BBB4E8100C4ED5A /* StandingsTableObservable.swift in Sources */,
 				15396A992BBB4C6200C4ED5A /* ContentView.swift in Sources */,
 				15396A972BBB4C6200C4ED5A /* FootballStatsApp.swift in Sources */,
 			);
@@ -356,10 +426,26 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		15396AA52BBB4D3200C4ED5A /* XCRemoteSwiftPackageReference "XCAFootballDataClient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/XCAFootballDataClient?tab=readme-ov-file";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		15396A942BBB4C6200C4ED5A /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
+		};
+		15396AA62BBB4D3200C4ED5A /* XCAFootballDataClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15396AA52BBB4D3200C4ED5A /* XCRemoteSwiftPackageReference "XCAFootballDataClient" */;
+			productName = XCAFootballDataClient;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
